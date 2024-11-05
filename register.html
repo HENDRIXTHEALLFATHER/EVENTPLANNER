@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="amapiano.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index_2.html">Home</a></li>
+                <li><a href="schedule.html">Event Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Register for the Event</h2>
+        <form class="registration-form" action="#" method="POST">
+            <label for="name">Name:</label><br><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="ticket">Ticket Type:</label>
+            <select id="ticket" name="ticket">
+                <option value="regular">Regular</option>
+                <option value="vip">VIP</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amapiano Event</p>
+        <p>Brought to you by DJ Hendrix</p><br><br>
+    </footer>
+</body>
+</html>
